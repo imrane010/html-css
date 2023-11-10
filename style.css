@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Goldman", cursive;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav img {
+  width: 5vw;
+}
+/* Verberg het dropdown-menu */
+.dropdown-content {
+  display: none;
+}
+
+/* Laat het dropdown-menu zien wanneer je met de muis over de hoofdlink gaat */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Stijl voor de links (optioneel) */
+.dropdown a {
+  text-decoration: none;
+  color: #fff9f9;
+  padding: 5px 10px;
+  display: block;
+}
+
+/* Stijl voor de hoofdlink (optioneel) */
+.dropdown a:hover {
+  background-color: #f0f0f0;
+}
